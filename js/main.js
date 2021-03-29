@@ -5,8 +5,8 @@ function view_video(element)
     document.querySelector(".name_lecturer").scrollIntoView({behavior: "smooth"});
 }
 function go_top() {
-    document.body.scrollIntoView({behavior:"smooth"});
-    document.documentElement.scrollIntoView({behavior:"smooth"});
+    document.body.scrollTop =0;
+    document.documentElement.scrollTop =0;
   }
   function scroll_check() {
     if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
