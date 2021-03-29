@@ -1,3 +1,7 @@
+.img_dev
+{
+    max-height: 400px;
+}
 .content
 {
     padding-top: 5rem;
@@ -57,4 +61,11 @@
   html
   {
       scroll-behavior: smooth;
+  }
+  @media (max-width:991px) and (min-width:768px)
+  {
+    .img_dev
+    {
+        max-height: 300px;
+    }
   }
